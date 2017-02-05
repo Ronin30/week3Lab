@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Current Date and Time</title>
+    </head>
+    <body>
+      <script type="text/javascript">
+      var today = new Date()
+      var  weekday = new
+      Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+      document.write("<b>Today is:</b> " + weekday[today.getDay()])
+
+      var currentTime = new Date();
+      var hours = currentTime.getHours();
+      var minutes = currentTime.getMinutes();
+      var seconds = currentTime.getSeconds();
+      var time = hours + " AM : " + minutes + " : " + seconds;
+      document.write("<br /><b>Current Time Is:</b> " + time);
+
+      </script>
+    </body>
+</html>
